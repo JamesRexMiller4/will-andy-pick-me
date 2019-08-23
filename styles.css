@@ -112,3 +112,7 @@ button:hover {
 /* #clearbtn:hover {
   background-color: #DE4841;
 } */
+
+.disappear {
+  display: none;
+}
