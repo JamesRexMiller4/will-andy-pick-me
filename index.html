@@ -3,21 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Life+Savers:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Will Andy Pick Me?</title>
   </head>
   <body>
   <header role="header">
-    <h1>Will Andy Pick Me?</h1>
+    <h1>Will Andy pick me?</h1>
   </header>
     <main role="main">
       <article role="article">
         <section class="leftsection">
-          <p>Magic 8 Ball</p>
           <form class="magicform">
-            <input type="text" class="askquestion">
+            <input type="text" class="askquestion" placeholder="Ask your question here!">
             <button id="submitbtn">Get your answer</button>
           </form>
+        <section class="display">
+          <img src="assets/eight-ball.png" height="200px" width="200px" class='eightballimg'>
+          <h2 id="displayquest"></h2>
+          <h2 id="displayanswer"></h2>
+        </section>
         </section>
         <section class="rightsection">
           <img src="assets/woody.png" alt="Picture of Woody">

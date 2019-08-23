@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  width: 60%;
+  width: 80%;
 }
 
 
@@ -33,12 +33,46 @@ article {
 
 h1 {
   text-align: center;
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-size: 500%;
+  color: #1C3455;
 }
 
 .leftsection {
-background-color: royalblue;
+background-color: #E6ECF4;
 width: 50%;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.askquestion {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Open-Sans', sans-serif;
+  color: #a8a8a8;
+  margin: 20px 0px 0px -5px;
+  width: 80%;
+  height: 40px;
+
+}
+
+#submitbtn {
+  font-size: 150%;
+  font-family: 'Open-Sans', sans-serif;
+  width: 81.5%;
+  height: 40px;
+  margin: 5px 0px 0px -5px;
+  background-color: #607aa0;
+  color: #ffffff;
+}
+
+.eightballimg{
+  margin-top: 40px;
 }
 
 .rightsection {
@@ -54,4 +88,5 @@ button:hover {
 .magicform {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
