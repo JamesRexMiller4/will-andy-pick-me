@@ -75,9 +75,9 @@ button.addEventListener('click', function() {
 });
 
 clearbutton.addEventListener('click', function() {
-    if (grabH2Result.value.length ===0) {
-      return;
-  } else clearbutton.style.backgroundcolor = '#DE4841'
+  //   if (grabH2Result.value.length ===0) {
+  //     return;
+  // } else clearbutton.style.backgroundcolor = '#DE4841'
     document.getElementById('magicform').reset();
     abraKadabra();
 });
