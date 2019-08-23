@@ -14,14 +14,14 @@
     <main role="main">
       <article role="article">
         <section class="leftsection">
-          <form class="magicform">
-            <input type="text" id="question" class="askquestion" placeholder="Ask your question here!">
-            <button id="submitbtn">Get your answer</button>
+          <form id="magicform">
+            <input type="text" id="question" class="askquestion" placeholder="Ask your question here!"/>
+            <input type="submit" value="Get your answer" id="submitbtn" onClick="return disable()"/>
           </form>
         <section class="display">
           <img src="assets/eight-ball.png" height="200px" width="200px" class='eightballimg'>
-          <h2 class="disappear" id="displayquest"><span id="insertquestion"></span>"</h2>
-          <h2 class="disappear" id="displayresult"><span id="insertresult"></span></h2>
+          <h2 class="disappear italicize" id="displayquest">"<span id="insertquestion"></span>"</h2>
+          <h2 class="disappear bold" id="displayresult">"<span id="insertresult"></span>"</h2>
         </section>
         <section class="clearsection">
           <button id='clearbtn'>Clear</clear>

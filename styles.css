@@ -38,6 +38,13 @@ h1 {
   color: #1C3455;
 }
 
+h2 {
+  margin-top: 80px;
+  margin-bottom: -20px;
+  font-size: 200%;
+  font-family: 'Open-Sans', sans-serif;
+}
+
 .leftsection {
 background-color: #E6ECF4;
 width: 50%;
@@ -62,13 +69,17 @@ width: 50%;
 }
 
 #submitbtn {
-  font-size: 150%;
+  font-size: 140%;
   font-family: 'Open-Sans', sans-serif;
   width: 81.5%;
   height: 40px;
   margin: 5px 0px 0px -5px;
   background-color: #607aa0;
   color: #ffffff;
+}
+
+input {
+  font-family: 'Open-Sans', sans-serif;
 }
 
 .woody {
@@ -89,7 +100,7 @@ button:hover {
   color: #ffffff;
 }
 
-.magicform {
+#magicform {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,12 +118,29 @@ button:hover {
   font-family: 'Open-Sans', sans-serif;
   color: #ffffff;
   background-color: #cfcdcd;
+  margin-top: 85px;
 }
 
 /* #clearbtn:hover {
   background-color: #DE4841;
 } */
 
+#insertquestion {
+  font-style: italic;
+}
+
+#insertresult {
+  font-weight: bold;
+}
 .disappear {
   display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italicize {
+  font-style: italic;
+  font-weight: 300;
 }
