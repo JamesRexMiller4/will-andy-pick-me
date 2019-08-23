@@ -10,3 +10,48 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+
+/* Elements */
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+main {
+  width: 60%;
+}
+
+
+article {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.leftsection {
+background-color: royalblue;
+width: 50%;
+}
+
+.rightsection {
+/* background-image: url("assets/woody.png"); */
+width: 50%;
+}
+
+button:hover {
+  background-color: #1C3455;
+  color: #ffffff;
+}
+
+.magicform {
+  display: flex;
+  flex-direction: column;
+}
