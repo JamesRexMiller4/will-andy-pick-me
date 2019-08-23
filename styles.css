@@ -71,6 +71,10 @@ width: 50%;
   color: #ffffff;
 }
 
+.woody {
+  margin-left: 150px;
+}
+
 .eightballimg{
   margin-top: 40px;
 }
@@ -90,3 +94,21 @@ button:hover {
   flex-direction: column;
   align-items: center;
 }
+
+.clearsection {
+  float: right;
+  margin: 30px 30px -40px 0px
+}
+
+#clearbtn {
+  width: 70px;
+  height: 30px;
+  font-size: 100%;
+  font-family: 'Open-Sans', sans-serif;
+  color: #ffffff;
+  background-color: #cfcdcd;
+}
+
+/* #clearbtn:hover {
+  background-color: #DE4841;
+} */

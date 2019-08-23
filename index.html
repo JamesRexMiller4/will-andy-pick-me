@@ -15,7 +15,7 @@
       <article role="article">
         <section class="leftsection">
           <form class="magicform">
-            <input type="text" class="askquestion" placeholder="Ask your question here!">
+            <input type="text" id="question" class="askquestion" placeholder="Ask your question here!">
             <button id="submitbtn">Get your answer</button>
           </form>
         <section class="display">
@@ -23,11 +23,17 @@
           <h2 id="displayquest"></h2>
           <h2 id="displayanswer"></h2>
         </section>
+        <section class="clearsection">
+          <button id='clearbtn'>Clear</clear>
+        </section>
         </section>
         <section class="rightsection">
-          <img src="assets/woody.png" alt="Picture of Woody">
+          <img src="assets/woody.png" alt="Picture of Woody" class="woody">
+          <h2 class="disappear"><span id="insertquestion"></span>"</h2>
+          <h2 class="disappear"><span id="insertresult"></span></h2>
         </section>
       </article>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
