@@ -40,7 +40,7 @@ h1 {
 
 h2 {
   margin-top: 80px;
-  margin-bottom: -20px;
+  margin-bottom: 3px;
   font-size: 200%;
   font-family: 'Open-Sans', sans-serif;
 }
@@ -95,7 +95,7 @@ input {
 width: 50%;
 }
 
-button:hover {
+input[submit]:hover {
   background-color: #1C3455;
   color: #ffffff;
 }
@@ -107,8 +107,12 @@ button:hover {
 }
 
 .clearsection {
+  clear: both;
   float: right;
-  margin: 30px 30px -40px 0px
+  margin: 30px 30px -40px 0px;
+}
+.btnclear {
+  float: right;
 }
 
 #clearbtn {
@@ -121,7 +125,7 @@ button:hover {
   margin-top: 85px;
 }
 
-/* #clearbtn:hover {
+/* .active {
   background-color: #DE4841;
 } */
 
